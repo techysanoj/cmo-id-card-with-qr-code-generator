@@ -42,6 +42,26 @@ To get started with this project, follow these steps:
 2. **Generate QR Code**: Click the button to generate the QR code and view the ID card.
 3. **Download/Print**: The generated ID card can be downloaded or printed for use.
 
+## Screenshots
+
+### Homepage
+
+![Homepage](docs/homepage.png)
+
+The homepage where users can enter their details to generate the ID card.
+
+### ID Card Preview
+
+![ID Card Preview](docs/id-card-preview.png)
+
+A preview of the generated ID card with the embedded QR code.
+
+### Download Page
+
+![Download Page](docs/download-page.png)
+
+The page where users can download or print the generated ID card.
+
 ## Technologies Used
 
 - **React JS**: Front-end framework for building the user interface.
