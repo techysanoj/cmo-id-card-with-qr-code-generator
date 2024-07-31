@@ -38,7 +38,7 @@ To get started with this project, follow these steps:
 
 
 ## Live Demo
-[Click Here]([http://example.com](https://id-card-with-qr-code-generator.vercel.app/))
+[Click Here](http://example.com](https://id-card-with-qr-code-generator.vercel.app/)
 
 ## Usage
 
