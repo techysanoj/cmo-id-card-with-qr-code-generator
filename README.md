@@ -46,21 +46,21 @@ To get started with this project, follow these steps:
 
 ### Homepage
 
-![Homepage](docs/homepage-1.png)
+![Homepage](homepage-1.png)
 
-![Homepage](docs/homepage-2.png)
+![Homepage](homepage-2.png)
 
 The homepage where users can enter their details to generate the ID card.
 
 ### ID Card Preview
 
-![ID Card Preview](docs/id-card-front.png)
+![ID Card Preview](id-card-front.png)
 
 A preview of the generated ID card with the embedded QR code.
 
 ### Download Page
 
-![Download Page](docs/download-id-card.png)
+![Download Page](download-id-card.png)
 
 The page where users can download or print the generated ID card.
 
