@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <h1>QR Code ID Card Generator</h1>
+        <h1 className='heading-top'>ID Card with QR Code Generator</h1>
         <Routes>
           <Route path="/" element={<EmployeeForm />} />
           <Route path="/id-card" element={<IDCardDisplay />} />

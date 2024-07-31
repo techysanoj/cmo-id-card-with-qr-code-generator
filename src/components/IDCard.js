@@ -19,12 +19,12 @@ const IDCard = ({ employee }) => {
         </div>
         <div className="id-card-body">
           <div className="id-card-info">
-            <p><strong>Employee Name:</strong> {name}</p>
-            <p><strong>Employee ID:</strong> {id}</p>
-            <p><strong>Designation:</strong> {designation}</p>
-            <p><strong>Mob No.:</strong> {phone}</p>
-            <p><strong>DOB:</strong> {dob}</p>
-            <p><strong>Office Address:</strong> {address}</p>
+            <p><strong>Employee Name : </strong> {name}</p>
+            <p><strong>Employee ID : </strong> {id}</p>
+            <p><strong>Designation : </strong> {designation}</p>
+            <p><strong>Mob No. : </strong> {phone}</p>
+            <p><strong>DOB : </strong> {dob}</p>
+            <p className='address'><strong>Office Address : </strong> {address}</p>
           </div>
           <div className="id-card-photo">
             {photo && <img src={photo} alt="Employee" />}
@@ -32,11 +32,11 @@ const IDCard = ({ employee }) => {
         </div>
         <div className="id-card-footer">
           <div>
-            <p>Signature of Card Holder</p>
+            <p>Sign of Card Holder</p>
             {cardHolderSignature && <img src={cardHolderSignature} alt="Card Holder Signature" className="signature" />}
           </div>
           <div>
-            <p>Sign Issuing Authority</p>
+            <p>Sign of Issuing Authority</p>
             {authoritySignature && <img src={authoritySignature} alt="Authority Signature" className="signature" />}
           </div>
         </div>
@@ -51,12 +51,12 @@ const IDCard = ({ employee }) => {
             <img src="/nhmlogo.png" alt="LogoNew" className="logo-2" />
         </div>
         <div className="id-card-back-info">
-          <p><strong>Aadhar No.:</strong> {aadhar}</p>
-          <p><strong>Blood Grp:</strong> {bloodGroup}</p>
-          <p><strong>Permanent Add:</strong> {permanentAddress}</p>
+          <p><strong>Aadhar No. : </strong> {aadhar}</p>
+          <p><strong>Blood Grp : </strong> {bloodGroup}</p>
+          <p className='address'><strong>Permanent Address : </strong> {permanentAddress}</p>
         </div>
         <div className="id-card-back-qr">
-          <QRCode value={JSON.stringify(employee)} size={150} />
+          <QRCode value={JSON.stringify(employee)} size={250} />
         </div>
       </div>
     </div>

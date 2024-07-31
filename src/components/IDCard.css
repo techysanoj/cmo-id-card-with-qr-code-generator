@@ -41,6 +41,11 @@
   padding: 10px;
 }
 
+.id-card-front, .id-card-back {
+  height: 650px;
+  width: auto;
+}
+
 .id-card-header {
   display: flex;
   align-items: center;
@@ -68,23 +73,36 @@
   justify-content: space-between;
 }
 
+
 .id-card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
   font-weight: 900;
   font-size: 1rem;
   flex: 1;
+  margin-left: 20px;
+  width: calc(100% - 150px); /* Adjust width considering the photo section */
 }
 
-.id-card-info p {
-  font-weight: 500;
+.address {
+  text-align: start;
+  width: 100%; /* Ensure full width */
+  word-wrap: break-word; /* Allow breaking of long text */
+}
+
+strong {
+  text-align: start;
 }
 
 .id-card-photo {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
-  height: 120px;
-  border: 1px solid #ccc;
+  width: 125px;
+  height: 150px;
+  border: 1.5px solid #000000;
 }
 
 .id-card-photo img {
@@ -98,6 +116,7 @@
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 30px;
 }
 
 .id-card-footer .signature {
@@ -106,7 +125,19 @@
   border-top: 1px solid #ccc;
 }
 
+.id-card-footer >div >p {
+  text-decoration: underline;
+}
+
 .id-card-back-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  font-weight: 900;
+  font-size: 1rem;
+  width: auto;
+  margin-left: 20px;
   margin-bottom: 20px;
 }
 

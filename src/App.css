@@ -40,14 +40,25 @@
 
 /* src/App.css */
 .App {
+  max-width: auto;
   text-align: center;
   padding: 20px;
+  /* background-color: #151414; */
+  background-image: url('https://st4.depositphotos.com/2727515/19619/i/450/depositphotos_196191680-stock-photo-space-amazing-dark-theme-background.jpg');
+  background-size: cover;
+  background-position: fixed;
+}
+
+.heading-top {
+  font-family: 'Arial';
+  color: #E2E2B6;
+  font-size: 50px;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  max-width: auto;
   margin: auto;
 }
 
