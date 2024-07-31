@@ -10,12 +10,12 @@ const IDCard = ({ employee }) => {
     <div className="id-card">
       <div className="id-card-front">
         <div className="id-card-header">
-          <img src="\logo-header.png" alt="Logo" className="logo" />
+          <img src="/logo-header.png" alt="Logo" className="logo" />
           <div>
             <h2>Govt. of Uttar Pradesh</h2>
             <h3>Dept. of Health & Family Welfare</h3>
           </div>
-          <img src="\nhmlogo.png" alt="LogoNew" className="logo-2" />
+          <img src="/nhmlogo.png" alt="LogoNew" className="logo-2" />
         </div>
         <div className="id-card-body">
           <div className="id-card-info">
@@ -43,12 +43,12 @@ const IDCard = ({ employee }) => {
       </div>
       <div className="id-card-back">
         <div className="id-card-header">
-            <img src="\logo-header.png" alt="Logo" className="logo" />
+            <img src="/logo-header.png" alt="Logo" className="logo" />
             <div>
                 <h2>Govt. of Uttar Pradesh</h2>
                 <h3>Dept. of Health & Family Welfare</h3>
             </div>
-            <img src="\nhmlogo.png" alt="LogoNew" className="logo-2" />
+            <img src="/nhmlogo.png" alt="LogoNew" className="logo-2" />
         </div>
         <div className="id-card-back-info">
           <p><strong>Aadhar No.:</strong> {aadhar}</p>
