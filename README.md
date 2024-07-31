@@ -37,7 +37,8 @@ To get started with this project, follow these steps:
    Open your browser and go to `http://localhost:3000` to view the application.
 
 
-## Live Demo - [Click Here]([http://example.com](https://id-card-with-qr-code-generator.vercel.app/))
+## Live Demo
+[Click Here]([http://example.com](https://id-card-with-qr-code-generator.vercel.app/))
 
 ## Usage
 
