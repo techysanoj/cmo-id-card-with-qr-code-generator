@@ -46,7 +46,8 @@ To get started with this project, follow these steps:
 
 ### Homepage
 
-![Homepage](docs/homepage.png)
+![Homepage](docs/homepage-1.png)
+![Homepage](docs/homepage-2.png)
 
 The homepage where users can enter their details to generate the ID card.
 
