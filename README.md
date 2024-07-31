@@ -38,7 +38,7 @@ To get started with this project, follow these steps:
 
 
 ## Live Demo
-You can check out the live demo of the project here: [Live Demo](https://id-card-with-qr-code-generator.vercel.app/)
+You can check out the live demo of the project here: <a href="http://your-live-link.com" target="_blank">Live Demo</a>
 
 ## Usage
 
