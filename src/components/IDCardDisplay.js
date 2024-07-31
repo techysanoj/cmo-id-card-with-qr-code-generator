@@ -18,7 +18,7 @@ const IDCardDisplay = () => {
 
   const handleDownloadPDF = () => {
     const input = document.getElementById('id-card');
-    html2canvas(input).then((canvas) => {
+    html2canvas(input, { useCORS: true, backgroundColor: null }).then((canvas) => {
       const imgData = canvas.toDataURL('image/png');
       const pdf = new jsPDF();
       pdf.addImage(imgData, 'PNG', 0, 0);

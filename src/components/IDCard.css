@@ -1,123 +1,118 @@
 /* src/components/IDCard.css */
 .id-card {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    padding: 20px;
-    margin: 1px auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    
-  }
-  
-  .id-card-front, .id-card-back {
-    position: relative; /* Required for the pseudo-element positioning */
-    padding: 0px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    overflow: hidden; /* Ensure content doesn't overflow the border radius */
-  }
-  
-  .id-card-front::before, .id-card-back::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('https://egov.eletsonline.com/wp-content/uploads/2016/08/Uttar-Pradesh-govt.jpg');
-    background-repeat: no-repeat;
-    background-size: 150px;
-    background-position: center;
-    opacity: 0.2; /* Adjust opacity as needed */
-    z-index: 1; /* Ensure it's below the content */
-  }
-  
-  .id-card-front .id-card-body, .id-card-back .id-card-body {
-    position: relative; /* Required for z-index stacking */
-    z-index: 2; /* Ensure the content is above the pseudo-element */
-    padding: 10px; /* Add some padding so text is not right at the edges */
-  }
-  
-  
-  .id-card-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    background-color: palevioletred;
-  }
-  
-  .id-card-header .logo {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-    margin-left: 5px;
-    color: white
-  }
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  margin: 1px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
 
-  .id-card-header .logo-2 {
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
-    margin-right: 5px;
+.id-card-front, .id-card-back {
+  position: relative;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
 
-  }
-  
-  .id-card-body {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .id-card-info {
-    font-weight: 900;
-    font-size: 1rem;
-    flex: 1;
-  }
+.id-card-front::before, .id-card-back::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://egov.eletsonline.com/wp-content/uploads/2016/08/Uttar-Pradesh-govt.jpg');
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+  opacity: 0.2; /* Adjust opacity as needed */
+  z-index: 1; /* Ensure it's below the content */
+}
 
-  .id-card-info p {
-    font-weight: 500;
-  }
-  
-  .id-card-photo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 120px;
-    border: 1px solid #ccc;
-  }
-  
-  .id-card-photo img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  
-  .id-card-footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  .id-card-footer .signature {
-    width: 100px;
-    height: 30px;
-    border-top: 1px solid #ccc;
-  }
-  
-  .id-card-back-info {
-    margin-bottom: 20px;
-  }
-  
-  .id-card-back-qr {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 12px;
-  }
-  
+.id-card-front .id-card-body, .id-card-back .id-card-body {
+  position: relative;
+  z-index: 2;
+  padding: 10px;
+}
+
+.id-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: palevioletred;
+}
+
+.id-card-header .logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.id-card-header .logo-2 {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.id-card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.id-card-info {
+  font-weight: 900;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.id-card-info p {
+  font-weight: 500;
+}
+
+.id-card-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 120px;
+  border: 1px solid #ccc;
+}
+
+.id-card-photo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.id-card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.id-card-footer .signature {
+  width: 100px;
+  height: 30px;
+  border-top: 1px solid #ccc;
+}
+
+.id-card-back-info {
+  margin-bottom: 20px;
+}
+
+.id-card-back-qr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
